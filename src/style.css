@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #01ad97;
 }
 
@@ -17,7 +17,6 @@ li {
   padding: 0;
   color: #737373;
   font-size: 14px;
-  font-weight: 300;
   line-height: 20px;
 }
 
@@ -111,5 +110,19 @@ small {
 .btn-bg {
   background-color: #015c50;
   border: none;
-  }
+}
 
+.btn-bg:hover {
+  background-color: #009783;
+  border: none;
+}
+
+.btn-bg:active {
+  background-color: #015c50;
+  border: none;
+}
+
+.btn-bg:focus {
+  background-color: #009783;
+  border: none;
+}
